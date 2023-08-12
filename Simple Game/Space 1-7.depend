@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1688310859 source:d:\aa coding files\c++\freespace\space section-cb\space #1\space 1-7\main.cpp
+	<iostream>
+	<stdio.h>
+	<cstdlib>
+
