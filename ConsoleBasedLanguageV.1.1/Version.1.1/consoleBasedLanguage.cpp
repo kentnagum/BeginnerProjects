@@ -5,7 +5,7 @@ using namespace std;
 string input;
 string printSomething;
 string newline;
-bool newl = false;
+string container;
 void clearscreen();
 void inPrintMode();
 void print()
@@ -89,7 +89,7 @@ void inPrintMode()
      getline(cin, input);
      if(input == commandNewline)
      {
-       newl = true;
+          
      }else if(input == commandPrint)
      {
       getline(cin, printSomething);
@@ -102,6 +102,7 @@ void inPrintMode()
      {
       cerr << "\nError: Missing input or Wrong input." << endl;
      }
-     
+     container += printSomething;
+        printSomething = container;
    }
 }
