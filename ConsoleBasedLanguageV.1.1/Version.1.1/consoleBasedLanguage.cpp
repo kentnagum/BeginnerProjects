@@ -10,10 +10,6 @@ void clearscreen();
 void inPrintMode();
 void print()
 {  
-     if(newl)
-     {
-     cout << "\n";
-     }
      cout << printSomething << endl;
 }
 void checkOtherCmd()
@@ -83,7 +79,6 @@ void inPrintMode()
     string commandNewline = "init_newline";
     string commandPrint = "init_print";
     string commandExitMode = "extmd";
-    newl = false;
    while(true)
    {
      getline(cin, input);
