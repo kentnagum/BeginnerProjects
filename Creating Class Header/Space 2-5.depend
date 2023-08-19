@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1692433691 source:d:\aa coding files\c++\freespace\space section-cb\space #2\space 2-5\player.cpp
+	<iostream>
+	"Player.h"
+
+1692433566 d:\aa coding files\c++\freespace\space section-cb\space #2\space 2-5\player.h
+
+1692433709 source:d:\aa coding files\c++\freespace\space section-cb\space #2\space 2-5\main.cpp
+	<iostream>
+	"Player.h"
+
